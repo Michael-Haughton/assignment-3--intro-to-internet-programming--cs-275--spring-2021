@@ -1,6 +1,12 @@
 window.onload = () => {
 
         // locating all the table data tags
+        let all = document.querySelectorAll(`td`);
+        //intailizing all the columns in the row
+        let firstcol = all[0];
+        let secondcol = all[1];
+        let thirdcol = all[2];
+        let forthcol = all[3];
 
     // tells the cell that is clicked on to rotate
     firstcol.addEventListener(`click`, () => {
